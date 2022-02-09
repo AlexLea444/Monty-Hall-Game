@@ -46,7 +46,8 @@ def game():
 tally = 0
 total = 0
 while True:
-    if game() == 1:
+    win = game()
+    if win == 1:
         tally += 1
         total += 1
         print('You win! You have played ' + str(total) + ' games. You have won ' + str(tally) + ' games!')
