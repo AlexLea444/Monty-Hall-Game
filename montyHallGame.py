@@ -48,5 +48,8 @@ total = 0
 while True:
     if game() == 1:
         tally += 1
-    total += 1
-    print('You win! You have played ' + str(total) + ' games. You have won ' + str(tally) + ' games!')
+        total += 1
+        print('You win! You have played ' + str(total) + ' games. You have won ' + str(tally) + ' games!')
+    else:
+        total += 1
+        print('Better luck next time! You have played ' + str(total) + ' games. You have won ' + str(tally) + ' games!')
